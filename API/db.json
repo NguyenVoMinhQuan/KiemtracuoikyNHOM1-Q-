@@ -1,0 +1,477 @@
+{
+  "products": {
+    "laptop": [
+      {
+        "id": 1,
+        "name": "Dell Vostro 5459",
+        "price": 7690000,
+        "CPU": "Intel Core i5 6200U ( 2.3 GHz Turbo 2.8 GHz, 2 nhân, 4 luồng, cache 3MB )",
+        "Ram": "8GB DDR3L bus 1600 MHz",
+        "Lưu trữ": " SSD 256GB",
+        "LCD": "14 inch HD 1366x768",
+        "VGA": "Nvidia 930M ( 2GB )",
+        "Nhu cầu": "tkdh-vp"
+      },
+      {
+        "id": 2,
+        "name": "HP Probook 640 G2",
+        "price": 6190000,
+        "CPU": "Intel Core i5 6198DU ( 2.3 GHz Turbo 2.8 GHz, 2 nhân, 4 luồng, cache 3MB )",
+        "Ram": "8GB DDR4 bus 2133 MHz",
+        "Lưu trữ": "SSD 256GB",
+        "LCD": "15.6 inch HD 1366 x 768",
+        "VGA": "Nvidia Geforce 920M ( 2GB )",
+        "Nhu cầu": "vp"
+      },
+      {
+        "id": 3,
+        "name": "Asus X541UV",
+        "price": 6890000,
+        "CPU": "Intel Core i5 6300U ( 2.4 GHz Turbo 3.0GHz , 2 nhân, 4 luồng, cache 3MB )",
+        "RAM": "8GB DDR4 bus 2133 MHz",
+        "Lưu trữ": "SSD 256GB",
+        "LCD": "14 inch HD 1366 x 768",
+        "VGA": "Intel HD Graphics 520",
+        "Nhu cầu": "tkdh"
+      },
+      {
+        "id": 4,
+        "name": "Lenovo Legion Y545",
+        "price": 15190000,
+        "CPU": "Intel Core i7 9750H ( 2.6 GHz Turbo 4.5 GHz, 6 nhân, 12 luồng, cache 12MB )",
+        "Ram": "16GB DDR4 bus 2666 MHz",
+        "Lưu trữ": "SSD 256GB NVMe + HDD 1TB",
+        "LCD": "15.6 inch FHD 1920 x 1080 - 144Hz",
+        "VGA": "Nvidia Geforce GTX 1660Ti ( 6GB )",
+        "Nhu cầu": "game"
+      },
+      {
+        "id": 5,
+        "name": "Acer Nitro 5 AN515-45",
+        "price": 15690000,
+        "CPU": "AMD Ryzen 5 5600H ( 3.2 GHz Turbo 4.2 GHz, 6 nhân, 12 luồng, cache 16MB )",
+        "Ram": "8GB DDR4 bus 3200 MHz",
+        "Lưu trữ": "SSD 512GB NVMe",
+        "LCD": "15.6 inch FHD 1920 x 1080 ( 120Hz )",
+        "VGA": "Nvidia GeForce GTX 1650 ( 4GB )",
+        "Nhu cầu": "game"
+      },
+      {
+        "id": 6,
+        "name": "MSI Prestige 14 A10RB",
+        "price": 20290000,
+        "CPU": "Intel Core i7 10510U ( 1.8 GHz Turbo 4.9 GHz , 4 nhân, 8 luồng, cache 8MB )",
+        "Ram": "16GB DDR4",
+        "Lưu trữ": "SSD 512GB ",
+        "LCD": "14 inch FHD 1920x1080",
+        "VGA": "Nvidia Gefore MX250 ( 2GB )",
+        "Nhu cầu": "game"
+      },
+      {
+        "id": 7,
+        "name": "Toshiba Satellite C840",
+        "price": 20290000,
+        "CPU": "Intel Core i3 3110M( 2.4 GHz, 2 nhân, 4 luồng, cache 3MB )",
+        "Ram": "4GB DDR3 bus 1333 MHz",
+        "Lưu trữ": "SSD 120GB Sata III 6g/s",
+        "LCD": "14 inch HD 1366 x 768",
+        "VGA": "Intel HD Graphics 4000",
+        "Nhu cầu": "vp"
+      },
+      {
+        "id": 8,
+        "name": "Sony VPCEG",
+        "price": 4890000,
+        "CPU": "Intel Core i5 2430M ( 2.4 GHz Turbo 3.1 GHz, 2 nhân, 4 luồng, cache 3MB )",
+        "Ram": "4GB DDR3 bus 1333 MHz",
+        "Lưu trữ": "SSD 120GB Sata III 6g/s",
+        "LCD": "15.6 inch HD 1366 x 768",
+        "VGA": "Intel HD Graphics",
+        "Nhu cầu": ""
+      },
+      {
+        "id": 9,
+        "name": "Fujitsu E5410 - Thế hệ 10",
+        "price": 10890000,
+        "CPU": "Intel Core i5 10210U ( 1.6 GHz Turbo 4.2 GHz , 4 nhân, 8 luồng, cache 6MB )",
+        "Ram": "8GB DDR4 bus 2666 MHz",
+        "Lưu trữ": "SSD 256GB NVMe",
+        "LCD": "14 inch HD 1366 x 768",
+        "VGA": "Intel UHD Graphics",
+        "Nhu cầu": "ultrabook"
+      },
+      {
+        "id": 10,
+        "name": "Macbook Pro 16inch 2021 - MK183 - MDM",
+        "price": 52990000,
+        "CPU": "Apple M1 Pro 10-Core CPU / 16-Core GPU",
+        "Ram": "32GB Unified",
+        "Lưu trữ": "SSD 512GB",
+        "LCD": "16.2 inch ( 3456 x 2234 ) MiniLed",
+        "Màu sắc": "Grey",
+        "Nhu cầu": "tkdh"
+      },
+      {
+        "id": 11,
+        "name": "Surface Laptop Go",
+        "price": 11890000,
+        "CPU": "Intel Core i5 1035G1 ( 1.0 GHz Turbo 3.6 GHz, 4 nhân, 8 luồng )",
+        "Ram": "8GB LPDDR4x",
+        "Lưu trữ": "SSD eMMC Drive 128GB",
+        "LCD": "12.4 inch FHD+ 1536x1024",
+        "VGA": "Intel UHD Graphics",
+        "Nhu cầu": "ultrabook"
+      },
+      {
+        "id": 12,
+        "name": "LG Gram 15ZB95N",
+        "price": 16890000,
+        "CPU": "Intel Core i5 1135G7 ( 2.4 GHz Turbo 4.2 GHz , 4 nhân, 8 luồng, cache 8MB )",
+        "Ram": "16GB DDR4 bus 3200 MHz",
+        "Lưu trữ": "SSD 256GB NVMe",
+        "LCD": "15.6 inch FHD 1920 x 1080",
+        "VGA": "Intel Iris Xe",
+        "Nhu cầu": "ultrabook"
+      },
+      {
+        "id": 13,
+        "name": "Samsung Galaxy Book 15 NP950XDB",
+        "price": 11890000,
+        "CPU": "Intel Core i5 1135G7 ( 2.4 GHz Turbo 4.2 GHz, 4 nhân, 8 luồng, cache 8MB )",
+        "Ram": "8GB LPDDR4x",
+        "Lưu trữ": "SSD eMMC Drive 512GB",
+        "LCD": "15.6 inch FHD 1920x1080",
+        "VGA": "Intel Iris XE Graphics",
+        "Nhu cầu": "ultrabook"
+      }
+    ],
+    "pc": [
+      {
+        "id": 1,
+        "name": "HP Prodesk 600 G2 - Mini văn phòng",
+        "price": 5690000,
+        "CPU": "Thế hệ 6 - Intel® Core™ i5 6500T (2.5 GHz Turbo 3.1 GHz, 4 nhân, 4 luồng, cache 6MB )",
+        "RAM": "8GB DDR4 bus 2133 MHz",
+        "Lưu trữ": "SSD 240GB Sata III 6g/s",
+        "VGA": "Intel HD Graphics 530",
+        "Nhu cầu": "vp"
+      },
+      {
+        "id": 2,
+        "name": "Dell Precision T3600",
+        "price": 9890000,
+        "CPU": "Thế hệ 2 - Intel® Xeon™ E5 - 1620 ( 3.6 GHz Turbo 3.8 GHz, 4 nhân, 8 luồng, cache 10MB )",
+        "RAM": "16GB DDR3 bus 1333 MHz",
+        "Lưu trữ": "SSD 120GB + HDD 1TB",
+        "VGA": "Nvidia Quadro 2000 ( 1GB 128 bit GDDR5 )",
+        "Nhu cầu": "game"
+      },
+      {
+        "id": 3,
+        "name": "Dell Optilex 3020 - 7020 - 9020 SFF",
+        "price": 4090000,
+        "CPU": "Thế hệ 4 - Intel® Core™ i3 4130 ( 3.6 GHz , 2 nhân, 4 luồng, cache 3MB )",
+        "RAM": "4GB DDR3 bus 1333 MHz",
+        "Lưu trữ": "SSD 120GB Sata III 6g/s",
+        "Nhu cầu": "vp"
+      },
+      {
+        "id": 4,
+        "name": "HP Workstation Z230",
+        "price": 6690000,
+        "CPU": "Thế hệ 4 - Intel® Core™ i5 4570 ( 3.4 GHz Turbo 3.8 GHz, 4 nhân, 4 luồng, cache 6MB )",
+        "RAM": "8GB DDR3 bus 1600 MHz",
+        "Lưu trữ": "SSD 240GB Sata III 6g/s",
+        "VGA": "Nvidia Quadro 600 ( 1GB 128 bit GDDR5 )",
+        "Nhu cầu": "vp"
+      },
+      {
+        "id": 5,
+        "name": "Dell Precision T1700",
+        "price": 6890000,
+        "CPU": "Thế hệ 4 - Intel® Core™ i5 4570 ( 3.4 GHz Turbo 3.8 GHz, 4 nhân, 4 luồng, cache 6MB )",
+        "RAM": "8GB DDR3 bus 1600 MHz",
+        "Lưu trữ": "SSD 240GB Sata III 6g/s",
+        "VGA": "Nvidia Quadro 600 ( 1GB 128 bit GDDR5 )",
+        "Nhu cầu": "game"
+      },
+      {
+        "id": 6,
+        "name": "iMac 21.5inch 2017",
+        "price": 13890000,
+        "CPU": "Intel Core i5 7360U ( 2.3 GHz Turbo 3.6 GHz, 2 nhân, 4 luồng, cache 4MB )",
+        "RAM": "8GB DDR4 2133 Mhz",
+        "Lưu trữ": "SSD 256GB ",
+        "LCD": "21.5 inch ( 1920 x 1080) ",
+        "VGA": "Iris Plus Graphics 640",
+        "Màu sắc": "Silver",
+        "Nhu cầu": "vp"
+      },
+      {
+        "id": 7,
+        "name": "Dell Optilex 3020 - 7020 - 9020 DT",
+        "price": 4390000,
+        "CPU": "Thế hệ 4 - Intel® Core™ i3 4130 ( 3.6 GHz , 2 nhân, 4 luồng, cache 3MB )",
+        "RAM": "4GB DDR3 bus 1333 MHz",
+        "Lưu trữ": "SSD 120GB Sata III 6g/s",
+        "Nhu cầu": "vp"
+      },
+      {
+        "id": 8,
+        "name": "HP Workstation Z820 V1",
+        "price": 20690000,
+        "CPU": "Thế hệ 2 - Intel® Xeon™ E5 - 2660 X 2 CPU ( 2.2 GHz Turbo 3.0 GHz, 8 nhân, 16 luồng, cache 20MB )",
+        "RAM": "16GB DDR3 bus 1333 MHz",
+        "Lưu trữ": "SSD 240GB + HDD 2TB",
+        "VGA": "Nvidia Quadro 2000 ( 1GB 128 bit GDDR5 )",
+        "Nhu cầu": "game"
+      },
+      {
+        "id": 9,
+        "name": "Dell Optilex 390 - 790 - 990 DT",
+        "price": 5190000,
+        "CPU": "Thế hệ 2 - Intel® Core™ i3 2100 ( 3.1 GHz , 2 nhân, 4 luồng, cache 3MB ) ",
+        "RAM": "4GB DDR3 bus 1333 MHz",
+        "Lưu trữ": "SSD 120GB Sata III 6g/s",
+        "VGA": "Nvidia Quadro 600 ( 1GB )",
+        "Nhu cầu": "vp"
+      },
+      {
+        "id": 10,
+        "name": "Dell Precision T3620",
+        "price": 14490000,
+        "CPU": "Thế hệ 6 - Intel® Core™ i5 6400 ( 2.7 GHz Turbo 3.3 GHz, 4 nhân, 4 luồng, cache 6MB ) ",
+        "RAM": "16GB DDR4 bus 2133 MHz",
+        "Lưu trữ": "SSD 240GB + HDD 1TB",
+        "VGA": "Nvidia Geforce GTX 1050 ( 2GB 128 bit GDDR5 )",
+        "Nhu cầu": "game"
+      }
+    ],
+    "screen": [
+      {
+        "id": 1,
+        "name": "HP EliteDisplay E241i",
+        "price": 2850000,
+        "Kích thước": "24 inch",
+        "Độ phân giải": "1920x1080 ( 16:9 )",
+        "Công nghệ tấm nền": "LED",
+        "Góc nhìn": "178 ( H ) / 178 ( V )",
+        "Tần số quét": "60 Hz",
+        "Thời gian phản hồi": "8 ms",
+        "Tình trạng": "likenew"
+      },
+      {
+        "id": 2,
+        "name": "HP EliteDisplay E243",
+        "price": 4100000,
+        "Kích thước": "23.8 inch",
+        "Độ phân giải": "1920x1080 ( 16:9 )",
+        "Công nghê tấm nền": "LED IPS",
+        "Góc nhìn": "178 ( H ) / 178 ( V )",
+        "Tấn số quét": "60 Hz",
+        "Thời gian phản hồi": "5 ms",
+        "Tình trạng": "New fullbox"
+      },
+      {
+        "id": 3,
+        "name": "Dell 23 Monitor U2312HM Ultrasharp",
+        "price": 3100000,
+        "Kích thước": "23 inch",
+        "Độ phân giải": "1920x1080 ( 16:9 )",
+        "Công nghê tấm nền": "LED IPS",
+        "Góc nhìn": "178 ( H ) / 178 ( V )",
+        "Tấn số quét": "60 Hz",
+        "Thời gian phản hồi": "8 ms",
+        "Tình trạng": "new 99%"
+      },
+      {
+        "id": 4,
+        "name": "Dell 23 Monitor S2316H",
+        "price": 3050000,
+        "Kích thước": "23 inch",
+        "Độ phân giải": "1920x1080 ( 16:9 )",
+        "Công nghê tấm nền": "LED IPS",
+        "Góc nhìn": "170 ( H ) / 160 ( V )",
+        "Tấn số quét": "60 Hz",
+        "Thời gian phản hồi": "7 ms",
+        "Tình trạng": "new 99%"
+      },
+      {
+        "id": 5,
+        "name": "Dell 23 Monitor P2314H 23",
+        "price": 2750000,
+        "Kích thước": "23 inch",
+        "Độ phân giải": "1920x1080 ( 16:9 )",
+        "Công nghê tấm nền": "LED IPS",
+        "Góc nhìn": "178 ( H ) / 178 ( V )",
+        "Tấn số quét": "60 Hz",
+        "Thời gian phản hồi": "8 ms",
+        "Tình trạng": "new 99%"
+      },
+      {
+        "id": 6,
+        "name": "Dell 23 Monitor E2314H",
+        "price": 1950000,
+        "Kích thước": "23 inch",
+        "Độ phân giải": "1920x1080 ( 16:9 )",
+        "Công nghê tấm nền": "LED IPS",
+        "Góc nhìn": "170 ( H ) / 160 ( V )",
+        "Tấn số quét": "60 Hz",
+        "Thời gian phản hồi": "7 ms",
+        "Tình trạng": "new 99%"
+      },
+      {
+        "id": 7,
+        "name": "Philips 272E1GSJ",
+        "price": 3990000,
+        "Kích thước": "27 inch",
+        "Độ phân giải": "1920x1080",
+        "Công nghê tấm nền": "VA",
+        "Góc nhìn": "178°/ 178°",
+        "Tấn số quét": "144 Hz",
+        "Thời gian phản hồi": "4 ms",
+        "Tình trạng": "new 99%"
+      },
+      {
+        "id": 8,
+        "name": "ASUS VZ24EHE",
+        "price": 2890000,
+        "Kích thước": "23.8 inch",
+        "Độ phân giải": "1920x1080",
+        "Công nghê tấm nền": "IPS",
+        "Góc nhìn": "178°/ 178°",
+        "Tấn số quét": "75 Hz",
+        "Thời gian phản hồi": "7 ms",
+        "Tình trạng": "new 99%"
+      },
+      {
+        "id": 9,
+        "name": "LG 27GN60R-B",
+        "price": 5090000,
+        "Kích thước": "27 inch",
+        "Độ phân giải": "1920 x 1080 (FHD)",
+        "Công nghê tấm nền": "IPS",
+        "Góc nhìn": "178º(R/L), 178º(U/D)",
+        "Tấn số quét": "144 Hz",
+        "Thời gian phản hồi": "1 ms",
+        "Tình trạng": "new 99%"
+      },
+      {
+        "id": 10,
+        "name": "ViewSonic VX2405-P-MHD",
+        "price": 5690000,
+        "Kích thước": "24 inch",
+        "Độ phân giải": "Full HD",
+        "Công nghê tấm nền": "IPS",
+        "Góc nhìn": "178 ( H ) / 178 ( V )",
+        "Tấn số quét": "144 Hz",
+        "Thời gian phản hồi": "1 ms",
+        "Tình trạng": "new 99%"
+      }
+    ],
+    "linhkien": [
+      {
+        "id": 1,
+        "name": "RAM LAPTOP DDR3L (Core i th4, th5)",
+        "price": 350000,
+        "Hãng sản xuất": "Samsung/ Hynix/ Elpida/ Micron....",
+        "Chuẩn RAM": "DDR3I",
+        "Tốc độ": "1333/1600 MHz",
+        "Điện Áp": "1.35V",
+        "Dung lượng": "4GB / Thanh",
+        "Bảo hành": "06 THÁNG",
+        "Loại": "laptop-ram"
+      },
+      {
+        "id": 2,
+        "name": "RAM LAPTOP DDR4 (Core i th6, th7, th8)",
+        "price": 400000,
+        "Hãng sản xuất": "Samsung/ Hynix/ Elpida/ Micron....",
+        "Chuẩn RAM": "DDR4",
+        "Tốc độ": "2133/2400/2660 MHz",
+        "Điện Áp": "1.2V",
+        "Dung lượng": "4GB / Thanh",
+        "Bảo hành": "06 THÁNG",
+        "Loại": "laptop-ram"
+      },
+      {
+        "id": 3,
+        "name": "RAM LAPTOP DDR3 (Core i th1, th2, th3)",
+        "price": 140000,
+        "Hãng sản xuất": "Samsung/ Hynix/ Elpida/ Micron....",
+        "Chuẩn RAM": "DDR3",
+        "Tốc độ": "1066/1333/1600 MHz",
+        "Điện Áp": "1.35V - 1.5V",
+        "Dung lượng": "2GB / Thanh",
+        "Bảo hành": "06 THÁNG",
+        "Loại": "laptop-ram"
+      },
+      {
+        "id": 4,
+        "name": "HDD LAPTOP 2.5 INCH",
+        "price": 250000,
+        "Hãng sản xuất": "Seagate/ HGST/ WD/ Toshiba .....",
+        "Dung lượng lưu trữ": "320GB",
+        "Tốc độ vòng quay": "5400 / 7200 RPM",
+        "Bộ nhớ cache": "16 / 32 MB",
+        "Chuẩn kết nố": "SATA",
+        "Kích thước": "2.5 inch",
+        "Bảo hành": "06 THÁNG",
+        "Loại": "laptop-hdd2.5"
+      },
+      {
+        "id": 5,
+        "name": "SSD 2.5 inch",
+        "price": 550000,
+        "Hãng sản xuất": "Seagate/ HGST/ WD/ Toshiba .....",
+        "Dung lượng lưu trữ": "120 / 128 GB",
+        "Tốc độ đọc ghi": "515 / 490 MB/s",
+        "NAND": "3D TLC",
+        "Chuẩn kết nố": "SATA",
+        "Kích thước": "2.5 inch",
+        "Bảo hành": "12 THÁNG",
+        "Loại": "ocung-ssd2.5"
+      },
+      {
+        "id": 6,
+        "name": "Msata",
+        "price": 550000,
+        "Hãng sản xuất": "Samsung/ liteon/ intel/ Toshiba/  .....",
+        "Dung lượng lưu trữ": "120 / 128 GB",
+        "Tốc độ đọc ghi": "515 / 490 MB/s",
+        "NAND": "3D TLC",
+        "Chuẩn kết nố": "",
+        "Bảo hành": "12 THÁNG",
+        "Loại": "ocung-msata"
+      },
+      {
+        "id": 7,
+        "name": "M2",
+        "price": 550000,
+        "Hãng sản xuất": "Samsung/ liteon/ intel/ Toshiba/  .....",
+        "Dung lượng lưu trữ": "120 / 128 GB",
+        "Tốc độ đọc ghi": "550 / 500 MB/s",
+        "NAND": "3D TLC",
+        "Chuẩn kết nố": "PCIE",
+        "Bảo hành": "12 THÁNG",
+        "Loại": "ocung-m2"
+      },
+      {
+        "id": 8,
+        "name": "NVMe",
+        "price": 6000000,
+        "Hãng sản xuất": "Samsung/ liteon/ intel/ Toshiba/  .....",
+        "Dung lượng lưu trữ": "128 GB",
+        "Tốc độ đọc ghi": "3500 / 3200 MB/s",
+        "NAND": "3D TLC",
+        "Chuẩn kết nố": "PCIE",
+        "Bảo hành": "12 THÁNG",
+        "Loại": "ocung-pcle-nvme"
+      }
+    ]
+  },
+  "users": [],
+  "orders": [],
+  "tmp_orders": [],
+  "favourite": []
+}

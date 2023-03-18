@@ -1,0 +1,3438 @@
+{
+	"info": {
+		"_postman_id": "1a9321bc-abdf-4e62-977e-662ea3bd9764",
+		"name": "DACK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25584957"
+	},
+	"item": [
+		{
+			"name": "Laptop",
+			"item": [
+				{
+					"name": "Laptop theo thương hiệu",
+					"item": [
+						{
+							"name": "Get Thương hiệu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 13 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(13);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/thuong-hieu/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"thuong-hieu",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Laptop - Dell",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-dell/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-dell",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Laptop - HP",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-hp/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-hp",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Laptop - Asus",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-asus/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-asus",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Laptop - lenovo",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-lenovo/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-lenovo",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Laptop - MSI",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-msi/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-msi",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Laptop - Acer",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-acer/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-acer",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Laptop - Toshiba",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-toshiba/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-toshiba",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Apple",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/apple/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"apple",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Samsung",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/samsung/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"samsung",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get fujitsu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/fujitsu/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"fujitsu",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Surface",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/Surface/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"Surface",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get LG",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/lg/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"lg",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Laptop theo cpu",
+					"item": [
+						{
+							"name": "Get core-i9",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/core-i9/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"core-i9",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get core-i7",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/core-i7/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"core-i7",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get core-i5",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/core-i5/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"core-i5",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get core-i3",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/core-i3/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"core-i3",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Laptop theo giá",
+					"item": [
+						{
+							"name": "Get Laptop dưới 5 triệu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-duoi-5-trieu/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-duoi-5-trieu",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Từ 5 đến 7 triệu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 2 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(2);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-tu-5-7-trieu/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-tu-5-7-trieu",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Từ 7-10 triệu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-tu-7-10-trieu/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-tu-7-10-trieu",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Từ 10-13 triệu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 3 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(3);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-tu-10-13-trieu/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-tu-10-13-trieu",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Từ 13-18 triệu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 3 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(3);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-tu-13-18-trieu/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-tu-13-18-trieu",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Laptop theo nhu cầu",
+					"item": [
+						{
+							"name": "Thiết kế đồ họa",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 3 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(3);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-thiet-ke-do-hoa/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-thiet-ke-do-hoa",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Chơi game",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 3 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(3);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/choi-game/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"choi-game",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Giải trí văn phòng",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 3 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(3);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-giai-tri-van-phong/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-giai-tri-van-phong",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Ultrabook",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 4 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(4);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/ultrabook/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"ultrabook",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Get Laptop",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Dữ liệu trả về 13 sản phẩm\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data.length).to.eql(13);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/laptop/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"laptop",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pc",
+			"item": [
+				{
+					"name": "Pc theo thương hiệu",
+					"item": [
+						{
+							"name": "Thương hiệu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 10 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(10);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/thuong-hieu-pc/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"thuong-hieu-pc",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Dell",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 6 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(6);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/may-tinh-de-ban-dell/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"may-tinh-de-ban-dell",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Hp",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 3 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(3);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/may-tinh-de-ban-hp/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"may-tinh-de-ban-hp",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Lenovo",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/may-tinh-de-ban-lenovo/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"may-tinh-de-ban-lenovo",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Apple",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/apple-185/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"apple-185",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Hãng khác",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/hang-khac/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"hang-khac",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Pc theo mức giá",
+					"item": [
+						{
+							"name": "Mức giá",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/muc-gia-pc/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"muc-gia-pc",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Dưới 5 triệu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 2 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(2);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/pc-duoi-5-trieu/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"pc-duoi-5-trieu",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Từ 5 đến 7 triệu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 2 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(2);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-tu-5-7-trieu/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-tu-5-7-trieu",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Từ 7-10 triệu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/pc-tu-7-10-trieu/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"pc-tu-7-10-trieu",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Từ 10-13 triệu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/pc-tu-10-13-trieu/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"pc-tu-10-13-trieu",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Từ 13-18 triệu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 2 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(2);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/pc-tu-13-18-trieu/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"pc-tu-13-18-trieu",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Từ 18 - 23 triệu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/pc-tu-18-22-trieu/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"pc-tu-18-22-trieu",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Pc theo nhu cầu",
+					"item": [
+						{
+							"name": "Chơi game và đồ họa",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 4 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(4);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/choi-game-va-do-hoa/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"choi-game-va-do-hoa",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Văn phòng",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 3 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(3);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/laptop-giai-tri-van-phong/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"laptop-giai-tri-van-phong",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Dell all in one",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/dell-all-in-one/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"dell-all-in-one",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Hp all in one",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/hp-all-in-one/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"hp-all-in-one",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Get all pc",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Dữ liệu trả về 10 sản phẩm\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data.length).to.eql(10);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/may-tinh-de-ban/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"may-tinh-de-ban",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Linh kiện máy tính",
+			"item": [
+				{
+					"name": "Linh kiện laptop",
+					"item": [
+						{
+							"name": "Ram",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 3 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(3);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/ram/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"ram",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "HDD 2.5",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/hdd-2-5-inch/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"hdd-2-5-inch",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Cpu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/cpu-laptop/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"cpu-laptop",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Vga",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/vga-laptop/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"vga-laptop",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Lcd",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/lcd/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"lcd",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Linh kiện pc",
+					"item": [
+						{
+							"name": "Main",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/main/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"main",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Ram",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/ram-pc/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"ram-pc",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "HDD 3.5",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/hdd/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"hdd",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Vga",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/vga/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"vga",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Cpu",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/cpu-pc/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"cpu-pc",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Nguồn",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/nguon/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"nguon",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Case",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/case/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"case",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Ổ cứng ssd",
+					"item": [
+						{
+							"name": "Ssd 2.5",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/ssd-2-5/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"ssd-2-5",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Msata",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/msata/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"msata",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "M2",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/m2/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"m2",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PCIe - NVMe",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.length).to.eql(1);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/pcie-nvme/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"pcie-nvme",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Pin-Battery",
+					"item": [
+						{
+							"name": "Pin dell",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/pin-dell/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"pin-dell",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Pin hp",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/pin-hp/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"pin-hp",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Pin lenovo",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/pin-lenovo/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"pin-lenovo",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Sạc - Adapter",
+					"item": [
+						{
+							"name": "Sạc dell",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/sac-dell/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"sac-dell",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Sạc hp",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/sac-hp/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"sac-hp",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Sạc lenovo",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/sac-lenovo/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"sac-lenovo",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Linh kiện máy tính",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Dữ liệu trả về 8 sản phẩm\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data.length).to.eql(8);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/linh-kien-may-tinh/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"linh-kien-may-tinh",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Linh kiện laptop",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Dữ liệu trả về 4 sản phẩm\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data.length).to.eql(4);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/linh-kien-laptop/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"linh-kien-laptop",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Linh kiện pc",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data.length).to.eql(1);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/linh-kien-pc/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"linh-kien-pc",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ổ cứng ssd",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Dữ liệu trả về 4 sản phẩm\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data.length).to.eql(4);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/o-cung-ssd-120/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"o-cung-ssd-120",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pin-Battery",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/pin-battery/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"pin-battery",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sạc - Adapter",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/sac-adapter/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"sac-adapter",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Phụ kiện",
+			"item": [
+				{
+					"name": "Get all phụ kiện",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/phu-kien-146/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"phu-kien-146",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Bàn phím",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/ban-phim/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"ban-phim",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mouse - Chuột",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/mouse-chuot/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"mouse-chuot",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Loa",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/loa/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"loa",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Tai nghe",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/tai-nghe/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"tai-nghe",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Màn hình - Monitor",
+			"item": [
+				{
+					"name": "All màn hình",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Dữ liệu trả về 10 sản phẩm\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data.length).to.eql(10);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/man-hinh-monitor/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"man-hinh-monitor",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Màn hình dell",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Dữ liệu trả về 4 sản phẩm\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data.length).to.eql(4);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/man-hinh-dell/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"man-hinh-dell",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Màn hình hp",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Dữ liệu trả về 2 sản phẩm\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data.length).to.eql(2);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/man-hinh-hp/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"man-hinh-hp",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Màn hình lenovo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/man-hinh-lenovo/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"man-hinh-lenovo",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Samsung",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/man-hinh-samsung/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"man-hinh-samsung",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LG",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Dữ liệu trả về 1 sản phẩm\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data.length).to.eql(1);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/man-hinh-lg/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"man-hinh-lg",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "dangky",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"lmaohahaha\",\r\n    \"email\":\"khoamap03@gmail.com\",\r\n    \"pass\":\"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/thanh-vien/dang-ky/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"thanh-vien",
+								"dang-ky",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "dangnhap",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.set(\"access_token\",pm.response.json().access_token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"khoamap03@gmail.com\",\r\n    \"pass\":\"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/thanh-vien/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"thanh-vien",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Thông tin tài khoản",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/thanh-vien/thong-tin-tai-khoan/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"thanh-vien",
+								"thong-tin-tai-khoan",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sản phẩm yêu thích",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/thanh-vien/danh-sach-yeu-thich/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"thanh-vien",
+								"danh-sach-yeu-thich",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Đơn đặt hàng",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/thanh-vien/don-hang-da-dat/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"thanh-vien",
+								"don-hang-da-dat",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Đổi thông tin tài khoản",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Test\",\r\n    \"sdt\":\"777777777\",\r\n    \"address\":\"HCMHCM\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/thanh-vien/thong-tin-tai-khoan/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"thanh-vien",
+								"thong-tin-tai-khoan",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Đổi mật khẩu(success)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.collectionVariables.set(\"access_token\",pm.response.json().new_access_token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pass\":\"abc\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/thanh-vien/thay-doi-mat-khau/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"thanh-vien",
+								"thay-doi-mat-khau",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Đổi mật khẩu (fail)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 400\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/thanh-vien/thay-doi-mat-khau/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"thanh-vien",
+								"thay-doi-mat-khau",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Thêm vào danh sách yêu thích",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":1,\r\n    \"type\":\"laptop\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/thanh-vien/danh-sach-yeu-thich/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"thanh-vien",
+								"danh-sach-yeu-thich",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"search\":\"dell\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/tim-kiem/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"tim-kiem",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Đặt hàng(no login)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"shipName\": \"Nguyen Van A\",\r\n    \"shipAddress\": \"123 Nguyen Hue, Quan 1, TP. Ho Chi Minh\",\r\n    \"shipPhone\": \"0901234567\",\r\n    \"shipNote\": \"Giao hàng vào giờ hành chính\",\r\n    \"paymentName\": \"Nguyen Van A\",\r\n    \"paymentAddress\": \"123 Nguyen Hue, Quan 1, TP. Ho Chi Minh\",\r\n    \"paymentPhone\": \"0901234567\",\r\n    \"paymentNote\": \"Thanh toán khi nhận hàng\",\r\n    \"paymentMethod\": \"COD\",\r\n    \"products\": [\r\n        {\r\n            \"id\": 1,\r\n            \"type\": \"laptop\",\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 2,\r\n            \"type\": \"laptop\",\r\n            \"quantity\": 1\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"type\": \"laptop\",\r\n            \"quantity\": 3\r\n        },\r\n        {\r\n            \"id\": 4,\r\n            \"type\": \"pc\",\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/gio-hang/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"gio-hang",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Đặt hàng(login)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{access_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"shipName\": \"Nguyen Van A\",\r\n    \"shipAddress\": \"123 Nguyen Hue, Quan 1, TP. Ho Chi Minh\",\r\n    \"shipPhone\": \"0901234567\",\r\n    \"shipNote\": \"Giao hàng vào giờ hành chính\",\r\n    \"paymentName\": \"Nguyen Van A\",\r\n    \"paymentAddress\": \"123 Nguyen Hue, Quan 1, TP. Ho Chi Minh\",\r\n    \"paymentPhone\": \"0901234567\",\r\n    \"paymentNote\": \"Thanh toán khi nhận hàng\",\r\n    \"paymentMethod\": \"COD\",\r\n    \"products\": [\r\n        {\r\n            \"id\": 1,\r\n            \"type\": \"laptop\",\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 2,\r\n            \"type\": \"laptop\",\r\n            \"quantity\": 1\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"type\": \"laptop\",\r\n            \"quantity\": 3\r\n        },\r\n        {\r\n            \"id\": 4,\r\n            \"type\": \"pc\",\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/gio-hang/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"gio-hang",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "localhost:3000",
+			"type": "string"
+		}
+	]
+}

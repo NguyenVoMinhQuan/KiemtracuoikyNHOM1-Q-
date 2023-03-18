@@ -1,0 +1,19 @@
+{
+  "name": "dack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "start-server": "node server.js",
+    "run-newman": "newman run collection.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.2",
+    "jsonwebtoken": "^9.0.0",
+    "newman": "^5.3.2"
+  }
+}
